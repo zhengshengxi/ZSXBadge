@@ -9,7 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## 介绍
+一款支持UIView和UIBarButtonItem的角标组件，包括红点、数字、文本，以及丰富的自定义样式参数
 
 ## Installation
 
@@ -50,6 +51,22 @@ pod 'ZSXBadge'
     //文本
     [v3 zsx_showTextBadgeWithText:@"New"];
 }
+```
+
+## 自定义参数
+```ruby
+@property (nonatomic, strong) UILabel *zsx_badge;
+@property (nonatomic, assign) NSInteger zsx_badgeNumber;
+@property (nonatomic, assign) NSInteger zsx_badgeMaxNumber;
+@property (nonatomic, copy) NSString *zsx_badgeValue;
+@property (nonatomic, strong) UIColor *zsx_badgebackgroundColor;
+@property (nonatomic, strong) UIColor *zsx_badgeTextColor;
+@property (nonatomic, assign) CGFloat zsx_badgeTextFontSize;
+@property (nonatomic, strong) UIFont *zsx_badgeTextFont;
+@property (nonatomic, assign) CGFloat zsx_badgeBorderWidth;
+@property (nonatomic, strong) UIColor *zsx_badgeBorderColor;
+@property (nonatomic, assign) CGFloat zsx_badgeRedDotSize;
+@property (nonatomic, assign) CGPoint zsx_badgeOffset;
 ```
 
 ## 效果图
