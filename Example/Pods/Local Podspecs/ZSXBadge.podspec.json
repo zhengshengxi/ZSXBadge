@@ -1,0 +1,22 @@
+{
+  "name": "ZSXBadge",
+  "version": "0.1.0",
+  "summary": "A short description of ZSXBadge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/314334043@qq.com/ZSXBadge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "314334043@qq.com": "“314334043@qq.com”"
+  },
+  "source": {
+    "git": "https://github.com/314334043@qq.com/ZSXBadge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZSXBadge/Classes/**/*"
+}

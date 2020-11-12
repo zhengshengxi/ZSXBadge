@@ -1,0 +1,6 @@
+framework module Pods_ZSXBadge_Example {
+  umbrella header "Pods-ZSXBadge_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
